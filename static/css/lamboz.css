@@ -170,7 +170,7 @@ div.hp-header {
   height:55%;
   max-height: 55;
   position:relative;
-  background:url('/theme/img/lego_background.jpg') no-repeat left center fixed;
+  background:url('/theme/img/lego_background.jpg') no-repeat center center fixed;
   background-size:cover;
 
 }
@@ -180,7 +180,7 @@ div.hp-header-inner {
   width:100%;
   height:30%;
   position:relative;
-  background:url('/theme/img/lego_background.jpg') no-repeat left center fixed;
+  background:url('/theme/img/lego_background.jpg') no-repeat center center fixed;
   background-size:cover;
 
 }
@@ -296,7 +296,7 @@ div.hp-header {
   width:100%;
   height:100%;
   position:relative;
-  background:url('/theme/img/lego_background.jpg') no-repeat left center fixed;
+  background:url('/theme/img/lego_background_mobile.jpg') no-repeat scroll 0% 0% / 100% 100%;
   background-size:cover;
 
 }
@@ -306,8 +306,8 @@ div.hp-header-inner {
   width:100%;
   height:30%;
   position:relative;
-  background:url('/theme/img/lego_background.jpg') no-repeat left center fixed;
-  background-size:cover;
+  background:url('/theme/img/lego_background.jpg') no-repeat scroll 0% 0% / 100% 100%;
+  /*  background-size:cover; */
 
 }
 
@@ -324,6 +324,14 @@ div#title-block H1 {
   text-shadow: 2px 2px 10px #000;
   margin-bottom: 0px;
 }
+
+  .content .data-holder {
+    margin: 0px;
+  }
+  
+  .main-article  {
+    padding: 0.5em;
+  }
 
 }
 
