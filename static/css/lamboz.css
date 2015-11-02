@@ -257,6 +257,14 @@ div#title-block P.blurb {
 .footer .active A {
   color: #550008;
 }
+span.post-read-more {
+  margin-left: 10px;
+  border-left: 2px solid #A01;
+  padding-left: 10px;
+}
+span.post-read-more A {
+  color: #A01;
+}
 @media (max-width: 768px) {
   .content {
     padding: 0px;
