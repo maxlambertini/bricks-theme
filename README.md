@@ -40,6 +40,9 @@ find the source `.scss` file in `static/css` directoty.
     and the Brick and Knob configurations  are trademarks 
     of the LEGO Group of Companies. ©2015."""
 
+    # if set, activate the addtoany.com button row. Check
+    # article_addsocial.html to customize buttons
+    ADD_TO_SOCIAL =  True
 
 # Licence
 
