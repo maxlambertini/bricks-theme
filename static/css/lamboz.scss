@@ -342,12 +342,14 @@ span.post-read-more {
     padding: 0.5em 0;
 }
 
+.pages UL LI.active { background-color: darken(@brand-color, 10%); }
+
 
 @media (max-width: 1024px) {
   
   div.content { padding: 0px; }
   div.data-holder { margin: 0px; }
-  div.content div.row { padding: 0px; }
+  div.content div.row { padding: 0px; padding-top: 0.5em;}
 
   div.column.aside { background-color: darken(@background-color,15%); padding: 0.5em;}
   
@@ -361,12 +363,18 @@ span.post-read-more {
         padding: 4px; border: 1px dotted darken(@background-color,40%);
       }
     }
+
 }
 
 @media (max-width: 768px) {
 
   .content { padding: 0px;}
-  div.column > * { margin: 0.5em;}
+  div.content { padding: 0px; }
+  div.data-holder { margin: 0px; }
+  div.content div.row { padding: 0px; padding-top: 0.5em;}
+
+  div.column.aside { background-color: darken(@background-color,15%); padding: 0.5em;}
+   div.column > * { margin: 0.5em;}
   
 
  

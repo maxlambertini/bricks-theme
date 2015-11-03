@@ -268,6 +268,9 @@ span.post-read-more A {
 .social-section {
   padding: 0.5em 0;
 }
+.pages UL LI.active {
+  background-color: #88000c;
+}
 @media (max-width: 1024px) {
   div.content {
     padding: 0px;
@@ -277,6 +280,7 @@ span.post-read-more A {
   }
   div.content div.row {
     padding: 0px;
+    padding-top: 0.5em;
   }
   div.column.aside {
     background-color: #d9d9d9;
@@ -297,6 +301,20 @@ span.post-read-more A {
 @media (max-width: 768px) {
   .content {
     padding: 0px;
+  }
+  div.content {
+    padding: 0px;
+  }
+  div.data-holder {
+    margin: 0px;
+  }
+  div.content div.row {
+    padding: 0px;
+    padding-top: 0.5em;
+  }
+  div.column.aside {
+    background-color: #d9d9d9;
+    padding: 0.5em;
   }
   div.column > * {
     margin: 0.5em;
