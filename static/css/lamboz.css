@@ -43,7 +43,7 @@ H6 {
 }
 .data-holder {
   margin: 1em auto;
-  max-width: 960px;
+  max-width: 1024px;
 }
 .header,
 .content,
@@ -268,16 +268,19 @@ span.post-read-more A {
 .social-section {
   padding: 0.5em 0;
 }
-@media (max-width: 768px) {
-  .content {
+@media (max-width: 1024px) {
+  div.content {
     padding: 0px;
   }
-  div.column > * {
-    margin: 1em;
+  div.data-holder {
+    margin: 0px;
+  }
+  div.content div.row {
+    padding: 0px;
   }
   div.column.aside {
     background-color: #d9d9d9;
-    padding: 10px;
+    padding: 0.5em;
   }
   .aside UL {
     margin: 0px;
@@ -289,6 +292,14 @@ span.post-read-more A {
     background-color: #ffffff;
     padding: 4px;
     border: 1px dotted #999999;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    padding: 0px;
+  }
+  div.column > * {
+    margin: 0.5em;
   }
   #title-block,
   #image-block {

@@ -91,7 +91,7 @@ H5,H6 { font-size: 1.05em; }
 
 .data-holder {
   margin: 1em auto;
-  max-width: 960px;
+  max-width: 1024px;
 }
 
 .header, .content, .footer { padding: 1em; }
@@ -343,12 +343,13 @@ span.post-read-more {
 }
 
 
-@media (max-width: 768px) {
-
-  .content { padding: 0px;}
-  div.column > * { margin: 1em;}
+@media (max-width: 1024px) {
   
-  div.column.aside { background-color: darken(@background-color,15%); padding: 10px;}
+  div.content { padding: 0px; }
+  div.data-holder { margin: 0px; }
+  div.content div.row { padding: 0px; }
+
+  div.column.aside { background-color: darken(@background-color,15%); padding: 0.5em;}
   
   .aside UL {
       margin: 0px; 
@@ -360,7 +361,14 @@ span.post-read-more {
         padding: 4px; border: 1px dotted darken(@background-color,40%);
       }
     }
- 
+}
+
+@media (max-width: 768px) {
+
+  .content { padding: 0px;}
+  div.column > * { margin: 0.5em;}
+  
+
  
   
   #title-block,#image-block { margin: 0.2em auto; }
