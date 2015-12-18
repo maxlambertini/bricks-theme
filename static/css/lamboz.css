@@ -371,3 +371,24 @@ span.post-read-more A {
     padding: 0.5em;
   }
 }
+
+SECTION.article A {
+        color: #C01;
+            font-weight: bold;
+        }
+
+
+figcaption {
+  display:block;
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
+
+FIGURE {
+      margin: 2em 0;
+        border: 1px dotted silver;
+          padding: 0.5em;
+      }
+
+      

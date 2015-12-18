@@ -425,7 +425,22 @@ span.post-read-more {
 
 }
 
+SECTION.article A {
+        color: #C01;
+            font-weight: bold;
+        }
 
 
+FIGURE {
+margin: 2em 0;
+border: 1px dotted silver;
+padding: 0.5em;
+}
 
+figcaption {
+display:block;
+text-align: center;
+font-style: italic;
+color: #777;
+}
 
