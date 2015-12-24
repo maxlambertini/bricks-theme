@@ -108,7 +108,7 @@
            <div class="large-6 tag-cloud column">
                 <h3>Tags</h3>
                 <ul>
-                    {% for t,tx in tags %}
+                    {% for t,tx in tags | sort %}
                     <li{% if t==tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ t.url }}">{{ t }}</a>({{ tx | length }})</li>
                     {% endfor %}
                 </ul>
@@ -116,7 +116,7 @@
             <div class="large-3 category-column column">
                 <h3>Categories</h3>
                 <ul>
-                    {% for cat,l in categories %}
+                    {% for cat,l in categories | sort  %}
                     <li{% if cat==category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> ({{ l | length }})</li>
                     {% endfor %}
                 </ul>
