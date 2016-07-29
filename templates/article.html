@@ -1,5 +1,7 @@
 {% extends "base.html" %}
+{% block title2 %}{{ article.title }} - {{SITENAME}}{% endblock title2 %}
 {% block title %}{{ article.title }} - {{SITENAME}}{% endblock title %}
+{% block descr %}{{ article.summary | striptags }}{% endblock descr %}
 {% block pageheader %}
 <div class="hp-header-inner">
     <div class="page-header">
